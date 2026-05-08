@@ -157,7 +157,7 @@ dashmap = "6"
 
 rdev = { git = "https://github.com/TM9657/rdev", branch = "macos-thread-safety" }
 
-wasmtime = { version = "43.0.1", features = ["async", "cranelift", "parallel-compilation", "gc", "pulley"] }
+wasmtime = { version = "44.0.1", features = ["async", "cranelift", "parallel-compilation", "gc", "pulley"] }
 wasmtime-wasi = "43.0.1"
 wasmtime-wasi-http = "43.0.1"
 
