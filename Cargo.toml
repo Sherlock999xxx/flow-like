@@ -145,7 +145,7 @@ rumqttc = "0.25.1"
 copilot-sdk = { git = "https://github.com/pjperez/copilot-sdk-rust.git", branch = "fix/protocol-v3-support" }
 async-trait = "0.1.89"
 jsonschema = "0.33.0"
-rmcp = { version = "0.16.0", features = ["auth", "client", "client-side-sse", "macros", "transport-streamable-http-client-reqwest", "transport-streamable-http-server"] }
+rmcp = { version = "1.4.0", features = ["auth", "client", "client-side-sse", "macros", "transport-streamable-http-client-reqwest", "transport-streamable-http-server"] }
 thiserror = "2.0.17"
 mimalloc = { version = "0.1.48", default-features = false }
 lettre = { version = "0.11.22", default-features = false, features = ["tokio1-rustls-tls", "builder", "hostname", "pool", "smtp-transport"] }
